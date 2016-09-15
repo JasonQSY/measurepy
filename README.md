@@ -11,3 +11,7 @@ It is very complicated and tedious to deal with data in my physics lab course. H
 - Simple linear regession.
 - Simple plotting with just a parameter to choose the style.
 - Plus, minus, multiply, divide with errors.
+
+## Usage
+
+Currently, the module is WIP. I'm reading and rewriting the codes I wrote in the course.
