@@ -9,5 +9,10 @@ setup(
     author_email = 'jasonsyqian@gmail.com',
     license = 'MIT',
     packages = ['measurepy'],
+    install_requires=[
+          'numpy',
+          'scipy',
+          'matplotlib',
+    ],
     zip_safe = False
 )
