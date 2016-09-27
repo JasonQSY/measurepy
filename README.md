@@ -8,7 +8,7 @@ It is very complicated and tedious to deal with data in my physics lab course. H
 ## Features
 
 - [x] Directly get the value and error with multi-measurements.
-- [ ] Simple linear regession.
+- [x] Simple linear regession (based on scipy now).
 - [ ] Simple plotting with just a parameter to choose the style.
 - [ ] Plus, minus, multiply, divide with errors.
 
@@ -32,3 +32,12 @@ For the multimeasure feature,
     print(mean)
     print(delta_a)
     print(error)
+
+For linear regression,
+
+    import numpy as np
+    from measurepy.regression import *
+
+    x = np.array([1, 2, 3, 4, 5])
+    y = np.array(x**2 + 1)
+    slope, intercept, slope_err, intercept_err, rsquare = lineareg(x, y)
