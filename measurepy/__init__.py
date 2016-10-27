@@ -1,2 +1,2 @@
-from .multimeasure import multimeasure
+from .multimeasure import *
 from .regression import *
