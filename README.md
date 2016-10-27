@@ -14,10 +14,9 @@ It is very complicated and tedious to deal with data in my physics lab course. H
 
 ## Installation
 
-The package has not been published to `pip` although I aim to do so. Currently, you can install it by running
+With `pip3`, just type
 
-    git clone https://github.com/JasonQSY/measurepy && cd measurepy
-    pip3 install .
+    pip3 install measurepy
 
 
 ## Usage
